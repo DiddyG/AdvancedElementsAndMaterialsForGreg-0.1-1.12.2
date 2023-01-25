@@ -27,13 +27,14 @@ public class ModMachines
     private static final Map<String, Boolean> MID_TIER = new HashMap<>();
     private static final Map<String, Boolean> HIGH_TIER = new HashMap<>();
     public static final SimpleMachineMetaTileEntity[] AEMG_INSCRIBER_MACHINE = new SimpleMachineMetaTileEntity[GTValues.V.length];
-    public static final SimpleMachineMetaTileEntity[] AEMG_UUMATTER_MACHINE = new SimpleMachineMetaTileEntity[GTValues.V.length];
+    public static final SimpleMachineMetaTileEntity[] AEMG_UUMATTER_EXTRACTOR = new SimpleMachineMetaTileEntity[GTValues.V.length];
+    public static final SimpleMachineMetaTileEntity[] AEMG_UUMATTER_SOLIDIFIER = new SimpleMachineMetaTileEntity[GTValues.V.length];
 
     public static void init()
     {
         registerSimpleMetaTileEntity(AEMG_INSCRIBER_MACHINE, 30703, "inscriber_machine", AEMGRecipeMap.INSCRIBER_RECIPES, (ICubeRenderer) Textures.ALLOY_SMELTER_OVERLAY, true);
-        registerSimpleMetaTileEntity(AEMG_UUMATTER_MACHINE, 30718, "UUMatter Machine", AEMGRecipeMap.UUMATTER_RECIPES, (ICubeRenderer) Textures.FLUID_HEATER_OVERLAY, true);
-
+        registerSimpleMetaTileEntity(AEMG_UUMATTER_EXTRACTOR, 30718, "uumatter_extractor", AEMGRecipeMap.UUMATTER_EXTRACTOR_RECIPES, (ICubeRenderer) Textures.FLUID_HEATER_OVERLAY, true);
+        registerSimpleMetaTileEntity(AEMG_UUMATTER_SOLIDIFIER, 30732, "uumatter_solidifier", AEMGRecipeMap.UUMATTER_SOLIDIFIER_RECIPES, (ICubeRenderer) Textures.FLUID_SOLIDIFIER_OVERLAY, true);
     }
     private static void registerSimpleMetaTileEntity(SimpleMachineMetaTileEntity[] machines, int startId, String name, RecipeMap<?> map, ICubeRenderer texture, boolean hasFrontFacing, Function<Integer, Integer> tankScalingFunction) {
         registerSimpleMetaTileEntity(machines, startId, name, map, texture, hasFrontFacing, ModMachines::gregtechId, tankScalingFunction);
