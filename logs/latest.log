@@ -1,0 +1,45 @@
+[16:09:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:09:07] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[16:09:07] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_351, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_351\jre
+[16:09:07] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[16:09:07] [main/ERROR] [FML]: Full: C:\Users\Aditya\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[16:09:07] [main/ERROR] [FML]: Trimmed: c:/users/aditya/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[16:09:07] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[16:09:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[16:09:07] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[16:09:07] [main/INFO] [FML]: Searching C:\Users\Aditya\Desktop\Minecraft Modding\AdvancedElementsAndMaterialsForGreg-0.1-1.12.2\.\mods for mods
+[16:09:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:09:07] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:09:09] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[16:09:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:09:09] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: java.lang.NoClassDefFoundError: net/minecraftforge/fml/common/ICrashCallable
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Class.forName0(Native Method)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at java.lang.Class.forName(Class.java:348)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraftforge.fml.common.launcher.FMLDeobfTweaker.injectIntoClassLoader(FMLDeobfTweaker.java:56)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.launch(Launch.java:115)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1052]: 	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: Caused by: java.lang.ClassNotFoundException: net.minecraftforge.fml.common.ICrashCallable
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.ThreadGroup:uncaughtException:1061]: 	... 5 more
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: Caused by: java.lang.NoClassDefFoundError: net/minecraft/crash/ICrashReportDetail
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at java.lang.ClassLoader.defineClass1(Native Method)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at java.lang.ClassLoader.defineClass(ClassLoader.java:756)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:644]: 	... 7 more
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:668]: Caused by: java.lang.ClassNotFoundException: net.minecraft.crash.ICrashReportDetail
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:668]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:668]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:418)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:668]: 	at java.lang.ClassLoader.loadClass(ClassLoader.java:351)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printStackTrace:668]: 	... 11 more
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printEnclosedStackTrace:710]: Caused by: java.lang.NullPointerException
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printEnclosedStackTrace:710]: 	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:182)
+[16:09:09] [main/INFO] [STDERR]: [java.lang.Throwable:printEnclosedStackTrace:710]: 	... 13 more

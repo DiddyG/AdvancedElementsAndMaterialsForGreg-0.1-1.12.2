@@ -1,0 +1,5 @@
+// Machines
+gregtech.machine.inscriber_machine.lv.name=Inscriber Machine
+
+//Items
+material.starbase=starbase
